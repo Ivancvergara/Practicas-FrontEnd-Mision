@@ -1,4 +1,4 @@
-#Prácticas de Intro a Frontend
+# Prácticas de Intro a Frontend
 Para la práctica se tuvo el siguiente caso y a raiz de eso sacar los puntos mencionados abajo.
 
 **Caso: Abogabot**
