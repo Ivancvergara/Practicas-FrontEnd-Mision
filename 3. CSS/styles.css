@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+:root{
+    --blue1: #2f4fcd;
+    --blue2: #1f3e72;
+    --blue3: #eef3ff;
+    --gris1: #6d7b93;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Noto Sans';
+    color: var(--gris1)
+}
+
+.container{
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient()
+}
+
+.nav{
+    color: var(--blue1);
+    height: 70px;
+    border-bottom: 19px solid #ffffff;
+}
+
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.logo_name{
+    font-size: 24px;
+}
+
+.link {
+    display: inline-block;
+    color: var(--gris1);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.link-active{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.point{
+    color: var(--gris1);
+}
+
+.hero_main{
+    height: calc(100vh - 70px);
+    display: flex;
+
+}
+
+.mockup{
+    object-fit: cover;
+    height: calc(100vh - 70px);
+    margin-top: 0px;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--blue2);
+    margin: 100px 100px 0 0;
+
+}
+
+.copy{
+    font-size: 18px;
+    color: var(--gris1);
+    margin: 0 120px 0 0;
+}
+
+.copy_2{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--blue2);
+    float: left;
+    margin: 50px 0 0 50px
+}
+
+.triangulo-1 {
+    width: 0; 
+    height: 0;
+    border-top: 80px solid var(--blue3);
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent; 
+    border-bottom: 50px solid transparent;
+    margin: 20px 0 0 30px;
+}
+
+.triangulo-2 {
+    width: 0; 
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 120px solid var(--blue3);
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid transparent;
+    margin-top: 300px;
+}
+
+.icons{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
