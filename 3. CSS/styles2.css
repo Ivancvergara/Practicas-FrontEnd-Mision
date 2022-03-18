@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --blue1: #2f4fcd;
+    --blue2: #1f3e72;
+    --blue3: #eef3ff;
+    --gris1: #6d7b93;
+
+}
+
+body{
+    font-family: 'Karla';
+    color: var(--gris1);
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 0 0 100px;
+    height: auto;
+    position: static;
+    z-index: 100;
+    padding: 0;
+}
+
+.hero{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.nav_container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: rgba(255,255,255,0.85);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo_name{
+    display: flex;
+    color: var(--blue1);
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.link {
+    font-family: 'Poppins';
+    font-size: 18px;
+    display: inline-block;
+    color: var(--gris1);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 50px auto 0 auto;
+    margin: 0 80px 0 0px;
+    font-weight: 600;
+}
+
+a.link:hover{
+    background: linear-gradient(to bottom right, var(--blue2), var(--blue1));
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    margin: 0 50px 0 0px;;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.container_1{
+    height: 800px;
+    width: 570px;
+    display: flex;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.mockup{
+    position: absolute;
+    object-fit: cover;
+    max-width: 800px;
+    height: 850px;
+    align-items: flex-end;
+    justify-content: right;
+    margin: 0 0 0 670px;
+    padding: 0;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--blue2);
+    margin: 200px 20px 0 0;
+
+}
+
+.copy{
+    font-size: 18px;
+    color: var(--gris1);
+    margin: 10px 20px 0 0;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.copy_2{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--blue2);
+    float: left;
+    margin: 50px 0 0 50px
+}
+
+.triangulo-1 {
+    width: 0; 
+    height: 0;
+    border-top: 80px solid var(--blue3);
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent; 
+    border-bottom: 50px solid transparent;
+    margin: 100px 0 0 30px;
+    position: absolute
+}
+
+.triangulo-2 {
+    width: 0; 
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 120px solid var(--blue3);
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid transparent;
+    margin-top: 370px;
+}
+
+.icons{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.ventajas{
+    width: 400px;
+    position: absolute;
+    display: flex;
+    margin-top: 0px;
+}
+
+.schendule{
+    width: 900px;
+    height: 150px;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 0;
+}
+
+.schenduleText{
+    font-size: 20px;
+    color: var(--blue2);
+    font-weight: 700;
+    margin: 40px 0 0 50px;
+    padding-top: 10px;
+}
+
+
+.datosVacunacion{
+    width: 900px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    margin-top: 650px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
+}
+
+.columnasDatos{
+    width: 25%;
+    padding-left: 20px;
+}
+
+.iconsDatos{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.tituloDatos{
+    font-size: 20px;
+    color: var(--gris1);
+    font-weight: 700;
+    margin: 40px 0 0 50px;
+}
+
+.contenidoDatos{
+    font-size: 22px;
+    color: var(--blue2);
+    font-weight: 700;
+    margin: 0 0 0 50px;
+}
+
+.submit {
+    width: 120px;
+    background: var(--blue3);
+    text-align: center;
+    border: none;
+    color: var(--blue1);
+    font-weight: 700;
+    position: absolute;
+    margin: 45px 0 0 20px;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
+  }
+
+.submit:hover{
+    background: linear-gradient(to bottom right, var(--blue2), var(--blue1));
+    color: white;
+
+}
+
+/* Sección: Marcas */
+.container_marcas{
+    height: 200px;
+    align-items:center;
+    display: flex;
+    margin: 0 60px 0 0;
+}
+
+.marcas{
+    filter: invert(0.4) grayscale(100%) opacity(40%);
+    width: auto;
+    display: flex;
+    padding: 50px 0;
+}
+
+.marca-1{
+    height: 70px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.marca-2{
+    height: 40px;
+}
+
+.marca-3{
+    height: 80px;
+}
+.marca-4{
+    height: 60px;
+}
+
+
+/* Sección: Why should I vaccine? */
+
+.home1{
+    background: #ffffff;
+}
+
+.subtitle{
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--blue2);
+
+}
+
+.triangulo-3 {
+    width: 0; 
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 120px solid var(--blue3);
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid transparent;
+    margin-left: 1170px;
+    position: absolute;
+}
+
+.copy_section{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 55% 0 0;
+    line-height: 30px;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 18%;
+    height: 300px;
+    padding: 20px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin: 30px 40px 20px 0;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
+}
+
+.card_img{
+    width: 20%;
+}
+
+.card_list{
+    color: var(--blue2);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 60px 0 0 0;
+}
+
+.card_copy{
+    font-weight: 600;
+}
+
+.triangulo-4 {
+    width: 0; 
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid var(--blue3);
+    border-bottom: 100px solid transparent;
+    margin: 40px 0 0 0;
+    position: absolute;
+}
+
+/* Sección Preparations Before Vaccine*/
+
+.cuadrado{
+    position: static;
+    display: flex;
+    height: 500px;
+    width: 550px;
+    margin: 450px 0 0 0;
+    background: radial-gradient(circle at -20.71% 50%, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
+}
+
+.container_preparation{
+    max-width: 700px;
+    margin: 100px 150px 0 0;
+    height: auto;
+    padding: 0;
+    float: right;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.mockup2{
+    object-fit: cover;
+    width: auto;
+    height: 700px;
+    margin: 250px 0px 0 0;
+    position: absolute;
+    display: flex;
+}
+
+.copy_section2{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 20% 0 0;
+    line-height: 30px;
+    margin: 0 0 0 0;
+    position: absolute;
+}
+
+.acordeon input{
+    display: none;
+}
+
+.container_acordeon{
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    width: 700px;
+}
+
+.acordeon1{
+    margin-top: 220px;
+}
+
+.tituloAcordeon{
+    text-decoration: none;
+    color: var(--blue2);
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    padding: 10px 0 10px 10px;
+    margin: 0 250px 0 0px;
+    border: 1px solid #eef3ff;
+    border-radius: 5px;
+}
+
+.textoAcordeon{
+    color: var(--gris1);
+    font-size: 15px;
+    margin-right: 250px;
+    overflow: hidden;
+    max-height: 0;
+    text-align: left;
+}
+
+.iconsAcordeon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin: 0px 10px 0 0px;
+}
+
+.acordeon input:checked ~ .textoAcordeon{
+    max-height: 80px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid #eef3ff;
+    border-top: 0px;
+    border-radius: 0 0 5px 5px;
+}
+
+.acordeon input:checked ~ .tituloAcordeon{
+    max-height: 80px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #eef3ff;
+    margin: 0 250px 0 0;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px #ffffff;
+}
+
+section:target .tituloAcordeon{
+    border-bottom: 1px #ffffff;
+}
+
+.triangulo-5 {
+    width: 0; 
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 120px solid var(--blue3);
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid transparent;
+    margin: 1000px 0 0 1170px;
+    position: absolute;
+}
+
+/* Section Contact */
+
+.sectionContact{
+    margin-top: 150px;
+}
+
+.container_contact{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.copy_section3{
+    font-size: 19px;
+    font-weight: 700;
+    padding: 20px 20% 0 0;
+    line-height: 30px;
+    margin: 0 430px 0 0;
+    position: relative;
+}
+
+.card_img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.cards_contact{
+    width: 30%;
+    height: 200px;
+    padding: 20px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin: 30px 20px 0px 0;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
+}
+
+.cardsTextContact{
+    padding-top: 0px;
+}
+
+.tipoContacto{
+    margin: 0 0 0 80px;
+    padding-top: 20px;
+}
+
+.detalleContacto{
+    margin: 0 0 0 80px;
+}
+
+.mockup3{
+    object-fit: cover;
+    width: auto;
+    height: 600px;
+    margin: 100px 0px 200px 0;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.cuadrado2{
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 550px;
+    margin: 200px 0 0 700px;
+    background: radial-gradient(circle at -20.71% 50%, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
+}
+
+.buttonContact {
+    width: 130px;
+    background: var(--blue3);
+    text-align: center;
+    border: none;
+    color: var(--blue1);
+    font-weight: 700;
+    position: absolute;
+    margin: 50px 0 0 20px;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
+  }
+
+a.buttonContact:hover{
+    background: linear-gradient(to bottom right, var(--blue2), var(--blue1));
+    color: white;
+
+}
+
+/* Footer */
+
+.containerFooter{
+    width: 100%;
+    height: 300px;
+    background: var(--blue3);
+    position:absolute;
+    display: flex;
+    margin-top: 700px;
+    padding: 50px 0 0 0;
+}
+
+.column1{
+    width: 50%;
+}
+
+.column2, .column3, .column4{
+    width: 16.67%;
+}
+
+.tituloColumnas{
+    color: var(--blue2);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.contenidoColumna1{
+    font-size: 15px;
+    color: var(--gris1);
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.contenidoColumnas{
+    font-size: 15px;
+    color: var(--gris1);
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.derechosReservados{
+    margin-top: 100px;
+}
+
+.triangulo-6 {
+    width: 0; 
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 120px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid var(--gris1);
+    margin: 0px 0 0 0px;
+    position: absolute;
+}
+
+.terminosCondiciones{
+    margin-left: 30px;
+}
+
+.politicaPrivacidad{
+    margin: 0 0 0 10px;
+}
+
